@@ -1,21 +1,47 @@
-# Yemek Kitabı – Android Uygulaması
+<h1 align="center">Yemek Kitabı</h1>
 
-## Proje Hakkında
-Yemek Kitabı Mobil Uygulaması, kullanıcıların istedikleri yemek tariflerini isim - malzeme/tarif - görsel olarak 
-not almalarını sağlayan temel bir android mobil uygulamasıdır.
+<p align="center">
+  Yemek tariflerini adı, malzemeleri ve görseliyle kaydettiğin Android uygulaması.
+</p>
 
-## Kullanılan Teknolojiler
-- Kotlin
-- Android Studio
-- Room Database
-- RecyclerView
-- ViewBinding
+<p align="center">
+  <a href="https://osmnnuri.github.io"><b>Ekran görüntüleri için siteme göz at</b></a>
+</p>
 
-## Projenin Amacı
-Bu proje, Android uygulama geliştirme becerilerimi sergilemek ve pratik yapma amacıyla
-geliştirilmiştir.
+---
 
-##  Kaynak Kodlar
-Bu projeye ait kaynak kodlar **özel (private) bir GitHub reposunda**
-tutulmaktadır. Gerekli görülmesi halinde inceleme için paylaşılabilir.
+## Proje hakkında
 
+Yemek Kitabı, kullanıcının istediği yemek tariflerini not almasını sağlayan
+temel bir Android uygulamasıdır. Her tarif adı, malzeme / tarif metni ve bir
+görselle birlikte saklanır.
+
+## Özellikler
+
+| | |
+|---|---|
+| **Tarif ekleme** | Ad, malzeme / tarif metni ve görsel ile tarif kaydetme |
+| **Tarif listesi** | Kaydedilen tarifleri liste halinde görüntüleme |
+| **Düzenleme ve silme** | Kayıtlı tarifleri güncelleme ya da kaldırma |
+| **Yerel kayıt** | Tarifler cihazda saklanır |
+
+## Kullanılan teknolojiler
+
+| Katman | Teknoloji |
+|---|---|
+| Dil | Kotlin |
+| Arayüz | RecyclerView, ViewBinding |
+| Yerel veri | Room |
+| Geliştirme ortamı | Android Studio |
+
+## Neden yaptım?
+
+Android uygulama geliştirme becerilerimi pekiştirmek ve pratik yapmak için.
+
+## Kaynak kod
+
+Kaynak kod özel bir depoda tutuluyor; inceleme için talep üzerine paylaşılabilir.
+
+## İletişim
+
+**osmnnuri** · [Web sitesi](https://osmnnuri.github.io) · [GitHub](https://github.com/osmnnuri) · osmannuriyasar57@gmail.com
