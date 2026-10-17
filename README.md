@@ -13,30 +13,34 @@
 ## Proje hakkında
 
 Yemek Kitabı, kullanıcının istediği yemek tariflerini not almasını sağlayan
-temel bir Android uygulamasıdır. Her tarif adı, malzeme / tarif metni ve bir
-görselle birlikte saklanır.
+temel bir Android uygulamasıdır. Her tarif adı, malzeme / tarif metni ve
+galeriden seçilen bir görselle birlikte cihazda saklanır.
 
 ## Özellikler
 
 | | |
 |---|---|
-| **Tarif ekleme** | Ad, malzeme / tarif metni ve görsel ile tarif kaydetme |
-| **Tarif listesi** | Kaydedilen tarifleri liste halinde görüntüleme |
-| **Düzenleme ve silme** | Kayıtlı tarifleri güncelleme ya da kaldırma |
-| **Yerel kayıt** | Tarifler cihazda saklanır |
+| **Tarif ekleme** | Ad, malzeme / tarif metni ve galeriden görsel ile tarif kaydetme |
+| **Tarif listesi** | Kaydedilen tarifler en yeniden eskiye listelenir |
+| **Tarif görüntüleme** | Listeden seçilen tarif tüm ayrıntılarıyla açılır |
+| **Silme** | Onay penceresiyle tarif silme |
+| **İzin yönetimi** | Galeri izni istenir; reddedilirse kullanıcı bilgilendirilir |
+| **Yerel kayıt** | Tarifler Room veritabanında yalnızca cihazda saklanır |
 
 ## Kullanılan teknolojiler
 
 | Katman | Teknoloji |
 |---|---|
 | Dil | Kotlin |
-| Arayüz | RecyclerView, ViewBinding |
-| Yerel veri | Room |
+| Arayüz | Activity, RecyclerView, ViewBinding |
+| Yerel veri | Room (coroutines ile) |
+| Görsel seçimi | Activity Result API (galeri + izin) |
 | Geliştirme ortamı | Android Studio |
 
 ## Neden yaptım?
 
-Android uygulama geliştirme becerilerimi pekiştirmek ve pratik yapmak için.
+Room veritabanı, liste ekranları ve çalışma zamanı izinleri üzerinde pratik
+yapmak için.
 
 ## Kaynak kod
 
